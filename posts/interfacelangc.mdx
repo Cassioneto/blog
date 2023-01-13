@@ -11,9 +11,9 @@ Pensemos assim se o nos temos uso do cursor em interface gráficas porquê não 
 
 `include <conio.h>` está linha importa uma serie de funções para o nosso caso. Mas será fácil? Bem depende do tempo que temos para estudar-a-lá, e ela não e do grupo padrão das livrarias de funções em compiladores como “gcc”, embora como temos o objetivo de interfaces fácil e agora confesso também rápidas se não desrespeitaria uma das condições de **UX**.
 
-getch() do grupo de funções da library citada acima lê o valor inteiro correspondente a tabela **ASCII** https://en.wikipedia.org/wiki/ASCII . Segundo está vem as teclas das setas do teclado podem ser o nosso cursor( não esquecemos falamos de linhas de comando e não interface gráficas!).
+**getch()** do grupo de funções da library citada acima lê o valor inteiro correspondente a tabela **ASCII** https://en.wikipedia.org/wiki/ASCII . Segundo está vem as teclas das setas do teclado podem ser o nosso cursor( não esquecemos falamos de linhas de comando e não interface gráficas!).
 
-Se definimos as constantes das teclas:
+  Se definimos as constantes das teclas:
 
 
 ```C
@@ -25,7 +25,7 @@ Se definimos as constantes das teclas:
 #define teclaEnter 13
 ```
 
-Podemos dizer que temos as nossas teclas de navegação o que nos permitirá por exemplo: usando os operadores aritméticos e algum dos lógicos teremos. Por exemplo uma das implementações possíveis:
+  Podemos dizer que temos as nossas teclas de navegação o que nos permitirá por exemplo: usando os operadores aritméticos e algum dos lógicos teremos. Por exemplo uma das implementações possíveis:
 
 
 ```C
@@ -92,4 +92,4 @@ printf(“ %c\n\
 “,186,200,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,205,188);
 }
 ```
-assim como a tabela **ASCII** mapeia as teclas de do teclado e se torna muito mais poderosa quando em linhas de comando usamos o mapeamento para exbir “caracteres secretos na tela”… e isso torna a função auto explicativa.
+  assim como a tabela **ASCII** mapeia as teclas de do teclado e se torna muito mais poderosa quando em linhas de comando usamos o mapeamento para exbir “caracteres secretos na tela”… e isso torna a função auto explicativa.
